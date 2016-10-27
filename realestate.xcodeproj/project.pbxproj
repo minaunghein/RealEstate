@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00C11051DC1C13200206A26 /* broom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D00C11041DC1C13200206A26 /* broom.jpg */; };
 		EA09C7B81DC1BFD300486ADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA09C7B71DC1BFD300486ADF /* AppDelegate.swift */; };
 		EA09C7BA1DC1BFD300486ADF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA09C7B91DC1BFD300486ADF /* ViewController.swift */; };
 		EA09C7BD1DC1BFD300486ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA09C7BB1DC1BFD300486ADF /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D00C11041DC1C13200206A26 /* broom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broom.jpg; sourceTree = "<group>"; };
 		EA09C7B41DC1BFD300486ADF /* realestate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realestate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA09C7B71DC1BFD300486ADF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA09C7B91DC1BFD300486ADF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				EA09C7BB1DC1BFD300486ADF /* Main.storyboard */,
 				EA09C7CD1DC1C00A00486ADF /* BedRoomViewController.swift */,
 				EA09C7CE1DC1C00A00486ADF /* BedRoomViewController.xib */,
+				D00C11041DC1C13200206A26 /* broom.jpg */,
 				EA09C7C91DC1BFFE00486ADF /* DinningRoomViewController.swift */,
 				EA09C7CA1DC1BFFE00486ADF /* DinningRoomViewController.xib */,
 				EA09C7BE1DC1BFD300486ADF /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				EA09C7CC1DC1BFFE00486ADF /* DinningRoomViewController.xib in Resources */,
 				EA09C7BF1DC1BFD300486ADF /* Assets.xcassets in Resources */,
 				EA09C7BD1DC1BFD300486ADF /* Main.storyboard in Resources */,
+				D00C11051DC1C13200206A26 /* broom.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +322,7 @@
 				EA09C7C81DC1BFD300486ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
