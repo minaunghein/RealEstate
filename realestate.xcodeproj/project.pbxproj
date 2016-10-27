@@ -16,6 +16,7 @@
 		EA09C7CC1DC1BFFE00486ADF /* DinningRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA09C7CA1DC1BFFE00486ADF /* DinningRoomViewController.xib */; };
 		EA09C7CF1DC1C00A00486ADF /* BedRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA09C7CD1DC1C00A00486ADF /* BedRoomViewController.swift */; };
 		EA09C7D01DC1C00A00486ADF /* BedRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA09C7CE1DC1C00A00486ADF /* BedRoomViewController.xib */; };
+		EA09C7D21DC1C17D00486ADF /* 14333829_636074979894471_7575092079678901350_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA09C7D11DC1C17D00486ADF /* 14333829_636074979894471_7575092079678901350_n.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		EA09C7CA1DC1BFFE00486ADF /* DinningRoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DinningRoomViewController.xib; sourceTree = "<group>"; };
 		EA09C7CD1DC1C00A00486ADF /* BedRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BedRoomViewController.swift; sourceTree = "<group>"; };
 		EA09C7CE1DC1C00A00486ADF /* BedRoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BedRoomViewController.xib; sourceTree = "<group>"; };
+		EA09C7D11DC1C17D00486ADF /* 14333829_636074979894471_7575092079678901350_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14333829_636074979894471_7575092079678901350_n.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				EA09C7B71DC1BFD300486ADF /* AppDelegate.swift */,
 				EA09C7B91DC1BFD300486ADF /* ViewController.swift */,
+				EA09C7D11DC1C17D00486ADF /* 14333829_636074979894471_7575092079678901350_n.jpg */,
 				EA09C7BB1DC1BFD300486ADF /* Main.storyboard */,
 				EA09C7CD1DC1C00A00486ADF /* BedRoomViewController.swift */,
 				EA09C7CE1DC1C00A00486ADF /* BedRoomViewController.xib */,
@@ -139,6 +142,7 @@
 				EA09C7D01DC1C00A00486ADF /* BedRoomViewController.xib in Resources */,
 				EA09C7C21DC1BFD300486ADF /* LaunchScreen.storyboard in Resources */,
 				EA09C7CC1DC1BFFE00486ADF /* DinningRoomViewController.xib in Resources */,
+				EA09C7D21DC1C17D00486ADF /* 14333829_636074979894471_7575092079678901350_n.jpg in Resources */,
 				EA09C7BF1DC1BFD300486ADF /* Assets.xcassets in Resources */,
 				EA09C7BD1DC1BFD300486ADF /* Main.storyboard in Resources */,
 			);
