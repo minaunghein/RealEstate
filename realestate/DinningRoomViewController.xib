@@ -17,13 +17,23 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="14292417_636075063227796_492714739699737027_n.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FH1-qS-Lem"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ep5-jW-8CJ">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="77" id="LOe-kg-Tc7"/>
+                    </constraints>
+                    <state key="normal" title="Back">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="FH1-qS-Lem" secondAttribute="trailing" id="A0q-eD-dMB"/>
                 <constraint firstItem="FH1-qS-Lem" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Mcf-91-gcy"/>
+                <constraint firstItem="ep5-jW-8CJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="2" id="ZQo-xt-lyq"/>
                 <constraint firstAttribute="bottom" secondItem="FH1-qS-Lem" secondAttribute="bottom" id="aAQ-lF-8iW"/>
                 <constraint firstItem="FH1-qS-Lem" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hrv-dV-LYC"/>
+                <constraint firstAttribute="bottom" secondItem="ep5-jW-8CJ" secondAttribute="bottom" constant="6" id="iGd-ps-dfo"/>
             </constraints>
             <point key="canvasLocation" x="33.5" y="54.5"/>
         </view>
