@@ -18,18 +18,24 @@
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="broom.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wtP-y0-v2s"/>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77V-X4-5Ws">
+                    <color key="backgroundColor" red="1" green="0.97712499274456366" blue="0.20610462456138434" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="45" id="MYM-Pt-en7"/>
                         <constraint firstAttribute="width" constant="68" id="S4g-cM-1Wj"/>
                     </constraints>
-                    <state key="normal" title="Back"/>
+                    <state key="normal" title="Back">
+                        <color key="titleColor" red="1" green="0.20738517167622239" blue="0.09862782968054129" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rxh-jM-Ynn">
+                    <color key="backgroundColor" red="1" green="0.94822364059648867" blue="0.20710511110796537" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="44" id="0ml-rs-cp8"/>
                         <constraint firstAttribute="width" constant="79" id="LAa-87-pU0"/>
                     </constraints>
-                    <state key="normal" title="Next"/>
+                    <state key="normal" title="Next">
+                        <color key="titleColor" red="1" green="0.17894619628491815" blue="0.10373356025793057" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
                     <connections>
                         <action selector="gotoNextBedRoom:" destination="-1" eventType="touchUpInside" id="Mcj-a8-2Vg"/>
                     </connections>
