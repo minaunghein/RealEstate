@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48847BE91DC39BC300C5B917 /* 14292417_636075063227796_492714739699737027_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48847BE81DC39BC300C5B917 /* 14292417_636075063227796_492714739699737027_n.jpg */; };
 		D00C11051DC1C13200206A26 /* broom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D00C11041DC1C13200206A26 /* broom.jpg */; };
 		EA09C7B81DC1BFD300486ADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA09C7B71DC1BFD300486ADF /* AppDelegate.swift */; };
 		EA09C7BA1DC1BFD300486ADF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA09C7B91DC1BFD300486ADF /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48847BE81DC39BC300C5B917 /* 14292417_636075063227796_492714739699737027_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14292417_636075063227796_492714739699737027_n.jpg; sourceTree = "<group>"; };
 		D00C11041DC1C13200206A26 /* broom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broom.jpg; sourceTree = "<group>"; };
 		EA09C7B41DC1BFD300486ADF /* realestate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realestate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA09C7B71DC1BFD300486ADF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				EA09C7B71DC1BFD300486ADF /* AppDelegate.swift */,
 				EA09C7B91DC1BFD300486ADF /* ViewController.swift */,
 				EA09C7D11DC1C17D00486ADF /* 14333829_636074979894471_7575092079678901350_n.jpg */,
+				48847BE81DC39BC300C5B917 /* 14292417_636075063227796_492714739699737027_n.jpg */,
 				EA09C7BB1DC1BFD300486ADF /* Main.storyboard */,
 				EA09C7CD1DC1C00A00486ADF /* BedRoomViewController.swift */,
 				EA09C7CE1DC1C00A00486ADF /* BedRoomViewController.xib */,
@@ -148,6 +151,7 @@
 				EA09C7D21DC1C17D00486ADF /* 14333829_636074979894471_7575092079678901350_n.jpg in Resources */,
 				EA09C7BF1DC1BFD300486ADF /* Assets.xcassets in Resources */,
 				EA09C7BD1DC1BFD300486ADF /* Main.storyboard in Resources */,
+				48847BE91DC39BC300C5B917 /* 14292417_636075063227796_492714739699737027_n.jpg in Resources */,
 				D00C11051DC1C13200206A26 /* broom.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
