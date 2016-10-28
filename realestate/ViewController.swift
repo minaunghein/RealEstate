@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 
     @IBAction func gotoDinning(_ sender: AnyObject) {
         
-        let drVC = DinningRoomViewController(nibName: "BedRoomViewController", bundle: nil)
+        let drVC = DinningRoomViewController(nibName: "DinningRoomViewController", bundle: nil)
         self.navigationController?.pushViewController(drVC, animated: true)
     }
     override func didReceiveMemoryWarning() {
