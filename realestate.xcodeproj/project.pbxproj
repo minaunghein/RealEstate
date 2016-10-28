@@ -79,6 +79,8 @@
 				EA09C7BB1DC1BFD300486ADF /* Main.storyboard */,
 				EA09C7CD1DC1C00A00486ADF /* BedRoomViewController.swift */,
 				EA09C7CE1DC1C00A00486ADF /* BedRoomViewController.xib */,
+				D00345411DC3143E001B8DFA /* BedRoom2ViewController.swift */,
+				D00345421DC3143E001B8DFA /* BedRoom2ViewController.xib */,
 				D00C11041DC1C13200206A26 /* broom.jpg */,
 				EA09C7C91DC1BFFE00486ADF /* DinningRoomViewController.swift */,
 				EA09C7CA1DC1BFFE00486ADF /* DinningRoomViewController.xib */,
@@ -151,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00345441DC3143E001B8DFA /* BedRoom2ViewController.xib in Resources */,
 				EA09C7D01DC1C00A00486ADF /* BedRoomViewController.xib in Resources */,
 				EA09C7C21DC1BFD300486ADF /* LaunchScreen.storyboard in Resources */,
 				EA09C7CC1DC1BFFE00486ADF /* DinningRoomViewController.xib in Resources */,
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA09C7BA1DC1BFD300486ADF /* ViewController.swift in Sources */,
+				D00345431DC3143E001B8DFA /* BedRoom2ViewController.swift in Sources */,
 				EA09C7CF1DC1C00A00486ADF /* BedRoomViewController.swift in Sources */,
 				EA09C7CB1DC1BFFE00486ADF /* DinningRoomViewController.swift in Sources */,
 				48847BEC1DC3A73600C5B917 /* DinningRoom2ViewController.swift in Sources */,
