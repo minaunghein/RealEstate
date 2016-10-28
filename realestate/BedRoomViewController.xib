@@ -16,10 +16,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="broom.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wtP-y0-v2s">
-                    <frame key="frameInset" width="375" height="667"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="broom.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wtP-y0-v2s"/>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77V-X4-5Ws">
                     <constraints>
                         <constraint firstAttribute="height" constant="45" id="MYM-Pt-en7"/>
@@ -31,7 +28,11 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="77V-X4-5Ws" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="46i-3A-G7A"/>
+                <constraint firstItem="wtP-y0-v2s" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="E3q-3s-gPj"/>
+                <constraint firstItem="wtP-y0-v2s" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Shw-EG-lgk"/>
                 <constraint firstAttribute="bottom" secondItem="77V-X4-5Ws" secondAttribute="bottom" constant="20" id="UxR-Rq-mqE"/>
+                <constraint firstAttribute="trailing" secondItem="wtP-y0-v2s" secondAttribute="trailing" id="Yyn-cx-Bds"/>
+                <constraint firstAttribute="bottom" secondItem="wtP-y0-v2s" secondAttribute="bottom" id="xff-nq-0qY"/>
             </constraints>
             <point key="canvasLocation" x="33.5" y="53.5"/>
         </view>
