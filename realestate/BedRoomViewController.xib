@@ -24,6 +24,16 @@
                     </constraints>
                     <state key="normal" title="Back"/>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rxh-jM-Ynn">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="0ml-rs-cp8"/>
+                        <constraint firstAttribute="width" constant="79" id="LAa-87-pU0"/>
+                    </constraints>
+                    <state key="normal" title="Next"/>
+                    <connections>
+                        <action selector="gotoNextBedRoom:" destination="-1" eventType="touchUpInside" id="Mcj-a8-2Vg"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -32,6 +42,8 @@
                 <constraint firstItem="wtP-y0-v2s" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Shw-EG-lgk"/>
                 <constraint firstAttribute="bottom" secondItem="77V-X4-5Ws" secondAttribute="bottom" constant="20" id="UxR-Rq-mqE"/>
                 <constraint firstAttribute="trailing" secondItem="wtP-y0-v2s" secondAttribute="trailing" id="Yyn-cx-Bds"/>
+                <constraint firstAttribute="bottom" secondItem="Rxh-jM-Ynn" secondAttribute="bottom" constant="20" id="bWN-ZI-B8G"/>
+                <constraint firstAttribute="trailing" secondItem="Rxh-jM-Ynn" secondAttribute="trailing" constant="16" id="bZK-rs-htP"/>
                 <constraint firstAttribute="bottom" secondItem="wtP-y0-v2s" secondAttribute="bottom" id="xff-nq-0qY"/>
             </constraints>
             <point key="canvasLocation" x="33.5" y="53.5"/>

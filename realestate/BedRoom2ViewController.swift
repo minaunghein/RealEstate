@@ -1,26 +1,15 @@
 //
-//  BedRoomViewController.swift
+//  BedRoom2ViewController.swift
 //  realestate
 //
-//  Created by Min Aung Hein on 27/10/16.
+//  Created by Zaw Myo Min on 28/10/16.
 //  Copyright © 2016 smag. All rights reserved.
 //
 
 import UIKit
 
-class BedRoomViewController: UIViewController {
+class BedRoom2ViewController: UIViewController {
 
-  
-  @IBAction func gotoNextBedRoom(_ sender: AnyObject) {
-    
-    
-    let br2VC = BedRoom2ViewController(nibName: "BedRoom2ViewController", bundle:nil)
-    self.navigationController?.pushViewController(br2VC, animated: true)
-    
-  }
-  
-  
-  
     override func viewDidLoad() {
         super.viewDidLoad()
 
