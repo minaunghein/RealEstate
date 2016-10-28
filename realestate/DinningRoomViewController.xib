@@ -21,6 +21,7 @@
                     <constraints>
                         <constraint firstAttribute="width" constant="77" id="LOe-kg-Tc7"/>
                     </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
                     <state key="normal" title="Back">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
