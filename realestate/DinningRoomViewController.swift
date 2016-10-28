@@ -16,6 +16,13 @@ class DinningRoomViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func gotodr2(_ sender: UIButton) {
+        
+        
+        let dr2 =  DinningRoom2ViewController(nibName: "DinningRoom2ViewController", bundle: nil)
+        self.navigationController?.pushViewController(dr2, animated: true)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
