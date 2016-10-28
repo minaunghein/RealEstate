@@ -1,14 +1,14 @@
 //
-//  DinningRoomViewController.swift
+//  DinningRoom2ViewController.swift
 //  realestate
 //
-//  Created by Min Aung Hein on 27/10/16.
+//  Created by KhaingKhaingLwin on 10/28/16.
 //  Copyright © 2016 smag. All rights reserved.
 //
 
 import UIKit
 
-class DinningRoomViewController: UIViewController {
+class DinningRoom2ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,13 +16,6 @@ class DinningRoomViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func gotodr2(_ sender: UIButton) {
-        
-        
-        let dr2 =  DinningRoom2ViewController(nibName: "DinningRoom2ViewController", bundle: nil)
-        self.navigationController?.pushViewController(dr2, animated: true)
-    }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

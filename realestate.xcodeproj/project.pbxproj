@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		48847BE91DC39BC300C5B917 /* 14292417_636075063227796_492714739699737027_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48847BE81DC39BC300C5B917 /* 14292417_636075063227796_492714739699737027_n.jpg */; };
+		48847BEC1DC3A73600C5B917 /* DinningRoom2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48847BEA1DC3A73600C5B917 /* DinningRoom2ViewController.swift */; };
+		48847BED1DC3A73600C5B917 /* DinningRoom2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48847BEB1DC3A73600C5B917 /* DinningRoom2ViewController.xib */; };
 		D00C11051DC1C13200206A26 /* broom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D00C11041DC1C13200206A26 /* broom.jpg */; };
 		EA09C7B81DC1BFD300486ADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA09C7B71DC1BFD300486ADF /* AppDelegate.swift */; };
 		EA09C7BA1DC1BFD300486ADF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA09C7B91DC1BFD300486ADF /* ViewController.swift */; };
@@ -23,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		48847BE81DC39BC300C5B917 /* 14292417_636075063227796_492714739699737027_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14292417_636075063227796_492714739699737027_n.jpg; sourceTree = "<group>"; };
+		48847BEA1DC3A73600C5B917 /* DinningRoom2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinningRoom2ViewController.swift; sourceTree = "<group>"; };
+		48847BEB1DC3A73600C5B917 /* DinningRoom2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DinningRoom2ViewController.xib; sourceTree = "<group>"; };
 		D00C11041DC1C13200206A26 /* broom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broom.jpg; sourceTree = "<group>"; };
 		EA09C7B41DC1BFD300486ADF /* realestate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realestate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA09C7B71DC1BFD300486ADF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				D00C11041DC1C13200206A26 /* broom.jpg */,
 				EA09C7C91DC1BFFE00486ADF /* DinningRoomViewController.swift */,
 				EA09C7CA1DC1BFFE00486ADF /* DinningRoomViewController.xib */,
+				48847BEA1DC3A73600C5B917 /* DinningRoom2ViewController.swift */,
+				48847BEB1DC3A73600C5B917 /* DinningRoom2ViewController.xib */,
 				EA09C7BE1DC1BFD300486ADF /* Assets.xcassets */,
 				EA09C7C01DC1BFD300486ADF /* LaunchScreen.storyboard */,
 				EA09C7C31DC1BFD300486ADF /* Info.plist */,
@@ -148,6 +154,7 @@
 				EA09C7D01DC1C00A00486ADF /* BedRoomViewController.xib in Resources */,
 				EA09C7C21DC1BFD300486ADF /* LaunchScreen.storyboard in Resources */,
 				EA09C7CC1DC1BFFE00486ADF /* DinningRoomViewController.xib in Resources */,
+				48847BED1DC3A73600C5B917 /* DinningRoom2ViewController.xib in Resources */,
 				EA09C7D21DC1C17D00486ADF /* 14333829_636074979894471_7575092079678901350_n.jpg in Resources */,
 				EA09C7BF1DC1BFD300486ADF /* Assets.xcassets in Resources */,
 				EA09C7BD1DC1BFD300486ADF /* Main.storyboard in Resources */,
@@ -166,6 +173,7 @@
 				EA09C7BA1DC1BFD300486ADF /* ViewController.swift in Sources */,
 				EA09C7CF1DC1C00A00486ADF /* BedRoomViewController.swift in Sources */,
 				EA09C7CB1DC1BFFE00486ADF /* DinningRoomViewController.swift in Sources */,
+				48847BEC1DC3A73600C5B917 /* DinningRoom2ViewController.swift in Sources */,
 				EA09C7B81DC1BFD300486ADF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

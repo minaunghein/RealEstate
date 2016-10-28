@@ -16,7 +16,20 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="14292417_636075063227796_492714739699737027_n.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FH1-qS-Lem"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="14292417_636075063227796_492714739699737027_n.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FH1-qS-Lem"/>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOL-OT-4Vz">
+                    <frame key="frameInset" minX="299" minY="619" width="77" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="77" id="KLB-ma-8TX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <state key="normal" title="Next">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="gotodr2:" destination="-1" eventType="touchUpInside" id="jnT-rf-xQH"/>
+                    </connections>
+                </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ep5-jW-8CJ">
                     <constraints>
                         <constraint firstAttribute="width" constant="77" id="LOe-kg-Tc7"/>
@@ -29,12 +42,14 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="yOL-OT-4Vz" firstAttribute="trailing" secondItem="FH1-qS-Lem" secondAttribute="trailing" id="9QV-1v-aem"/>
                 <constraint firstAttribute="trailing" secondItem="FH1-qS-Lem" secondAttribute="trailing" id="A0q-eD-dMB"/>
                 <constraint firstItem="FH1-qS-Lem" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Mcf-91-gcy"/>
                 <constraint firstItem="ep5-jW-8CJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="2" id="ZQo-xt-lyq"/>
                 <constraint firstAttribute="bottom" secondItem="FH1-qS-Lem" secondAttribute="bottom" id="aAQ-lF-8iW"/>
                 <constraint firstItem="FH1-qS-Lem" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hrv-dV-LYC"/>
                 <constraint firstAttribute="bottom" secondItem="ep5-jW-8CJ" secondAttribute="bottom" constant="6" id="iGd-ps-dfo"/>
+                <constraint firstItem="yOL-OT-4Vz" firstAttribute="baseline" secondItem="ep5-jW-8CJ" secondAttribute="baseline" id="uBp-Vl-7iE"/>
             </constraints>
             <point key="canvasLocation" x="33.5" y="54.5"/>
         </view>
